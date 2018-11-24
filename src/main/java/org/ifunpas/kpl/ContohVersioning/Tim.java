@@ -36,7 +36,7 @@ public class Tim {
 			pemainInti.add(pemain);
 			System.out.println(pemain.getNama()+" berhasil ditambahkan sebagai pemain inti");
 			return true;
-		}else {
+		} else {
 			System.out.println(pemain.getNama()+" tidak berhasil ditambahkan sebagai pemain inti");
 			return false;
 		}	
