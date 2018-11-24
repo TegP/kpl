@@ -3,10 +3,27 @@ package org.ifunpas.kpl.ContohVersioning;
 public class Pemain {
 	private String nama;
 	private int noPunggung;
-	private int tes;
 	
 	public Pemain (String nama, int noPunggung) {
 		this.nama = nama;
 		this.noPunggung = noPunggung;
 	}
+
+	public String getNama() {
+		return nama;
+	}
+
+	public void setNama(String nama) {
+		this.nama = nama;
+	}
+
+	public int getNoPunggung() {
+		return noPunggung;
+	}
+
+	public void setNoPunggung(int noPunggung) {
+		this.noPunggung = noPunggung;
+	}
+	
+	
 }
